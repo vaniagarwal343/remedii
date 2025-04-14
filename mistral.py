@@ -9,9 +9,6 @@ import csv
 load_dotenv()
 api_key = os.environ["MISTRAL_API_KEY"]
 
-# Print the API key for debugging purposes
-print("API Key:", api_key)
-
 # Initialize the Mistral client with your API key
 client = Mistral(api_key=api_key)
 
